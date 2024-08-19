@@ -27,4 +27,4 @@ jobs:
       - name: Deploy to Hostgator
         run: |
           lftp -e "mirror -R build /public_html/greenthumbup.org; exit" \
-          -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp.your-hostgator-domain.com
+          -u ${{ secrets.FTP_USERNAME }},${{ secrets.FTP_PASSWORD }} ftp@fayezzes.org
