@@ -14,6 +14,19 @@ body {
   min-height: 100vh;
 }
 
+.logo-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically (if container has a height) */
+  height: 100px; /* Adjust as needed */
+}
+
+.logo {
+  max-width: 100%; /* Ensures logo scales within the container */
+  height: auto; /* Maintains aspect ratio */
+}
+
+
 #main-header {
   display: flex;
   justify-content: space-between;

@@ -3,7 +3,7 @@ import logoImg from '../assets/logo.jpg';
 export default function Header() {
     return <header id="main-header">
         <div id="title">
-            <img src={logoImg} alt="A farm"/>
+            <img src={logoImg} alt="A farm" className="logo"/>
             <h1>GreenThumbup Items</h1>
         </div>
         <nav>
