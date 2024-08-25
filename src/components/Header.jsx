@@ -1,5 +1,5 @@
 import Button from './UI/Button.jsx';
-import logoImg from '../assets/logo.jpg';
+import logoImg from '../assets/logo.png';
 
 export default function Header() {
     return <header id="main-header">

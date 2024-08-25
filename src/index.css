@@ -9,7 +9,7 @@ body {
   font-family: 'Raleway', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: linear-gradient(#29251c, #2c2306);
+  background: linear-gradient(#60996f, #2c2306);
   color: #d9e2f1;
   min-height: 100vh;
 }
@@ -17,14 +17,17 @@ body {
 .logo-container {
   display: flex;
   justify-content: center; /* Centers horizontally */
-  align-items: center; /* Centers vertically (if container has a height) */
+  align-items: center; /* Centers vertically */
   height: 100px; /* Adjust as needed */
 }
 
 .logo {
-  max-width: 100%; /* Ensures logo scales within the container */
+  max-width: 100%; /* Ensures the logo scales with the container’s width */
+  max-height: 100%; /* Ensures the logo scales with the container’s height */
+  width: auto; /* Maintains aspect ratio */
   height: auto; /* Maintains aspect ratio */
 }
+
 
 
 #main-header {
