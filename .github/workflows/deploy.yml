@@ -9,16 +9,17 @@ jobs:
   ftp-deploy:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+    - name: Checkout Repository
+      uses: actions/checkout@v2
 
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@4.1.0
-        with:
-          server: ${{ secrets.FTP_SERVER }}  # Replace with your FTP server
-          username: ${{ secrets.FTP_USERNAME }}  # Replace with your FTP username
-          password: ${{ secrets.FTP_PASSWORD }}  # Replace with your FTP password
-          local-dir: dist  # The directory containing your build files
-          server-dir: public_html  # The directory on the server where files should be uploaded
+    - name: FTP Deploy
+      uses: SamKirkland/FTP-Deploy-Action@4.1.0
+      with:
+        server: ${{ secrets.FTP_SERVER }}
+        username: ${{ secrets.FTP_USERNAME }}
+        password: ${{ secrets.FTP_PASSWORD }}
+        local-dir: dist/  # Ensure this ends with a slash
+        server-dir: public_html/
+
 
 
