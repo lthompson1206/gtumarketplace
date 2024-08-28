@@ -18,7 +18,7 @@ jobs:
           server: ${{ secrets.FTP_SERVER }}  # Replace with your FTP server
           username: ${{ secrets.FTP_USERNAME }}  # Replace with your FTP username
           password: ${{ secrets.FTP_PASSWORD }}  # Replace with your FTP password
-          local-dir: dist  # The directory containing your build files
+          local-dir: dist/  # The directory containing your build files
           server-dir: public_html  # The directory on the server where files should be uploaded
 
 
