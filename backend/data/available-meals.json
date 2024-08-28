@@ -10,28 +10,28 @@
     "id": "m2",
     "name": "Sativa Dominant Hybrid",
     "price": "12.99",
-    "description": "A classic pizza with fresh mozzarella, tomatoes, and basil on a thin and crispy crust.",
+    "description": "Energizing effects with mild relaxation; great for mental stimulation without the intensity of pure Sativa.",
     "image": "images/margherita-pizza.jpg"
   },
   {
     "id": "m3",
     "name": "Hybrid",
     "price": "7.99",
-    "description": "Romaine lettuce tossed in Caesar dressing, topped with croutons and parmesan shavings.",
+    "description": "Balanced mix of Sativa and Indica effects, suitable for various needs from relaxation to mental clarity.",
     "image": "images/caesar-salad.jpg"
   },
   {
     "id": "m4",
     "name": "Indica Dominant Hybrid",
     "price": "10.99",
-    "description": "Al dente spaghetti with a creamy sauce made from egg yolk, pecorino cheese, pancetta, and pepper.",
+    "description": "Relaxing, body-centered effects with some cerebral stimulation; ideal for stress relief and evening use.",
     "image": "images/spaghetti-carbonara.jpg"
   },
   {
     "id": "m5",
     "name": "Indica",
     "price": "9.99",
-    "description": "A juicy veggie patty served on a whole grain bun with lettuce, tomato, and a tangy sauce.",
+    "description": "Calming, sedative effects; strong body high, perfect for relaxation, pain relief, and sleep aid.",
     "image": "images/veggie-burger.jpg"
   },
   {
