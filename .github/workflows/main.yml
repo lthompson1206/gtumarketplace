@@ -26,4 +26,4 @@ jobs:
         password: ${{ secrets.FTP_PASSWORD }}
         protocol: ftp
         local-dir: build/
-        server-dir: public_html/
+        server-dir: greenthumbup.org/Mont3
