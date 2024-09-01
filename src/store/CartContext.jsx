@@ -73,6 +73,6 @@ export function CartContextProvider({ children }) {
     return <CartContext.Provider value={cartContext}>{children}</CartContext.Provider>
    
 }
-
+// add some bs to test out git
 export default CartContext; 
 
